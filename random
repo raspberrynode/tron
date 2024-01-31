@@ -2,7 +2,96 @@
 
 local args = {
 	[1] = {
+		["Pyro"] = {
+			["Ring"] = {
+				["Color"] = "1, 1, 1",
+				["Type"] = "None"
+			},
+			["Ramp"] = {
+				["Color"] = "1, 1, 1",
+				["Type"] = "None"
+			},
+			["Intro"] = {
+				["Color"] = "1, 1, 1",
+				["Type"] = "None"
+			},
+			["Stage"] = {
+				["Color"] = "1, 1, 1",
+				["Type"] = "None"
+			}
+		},
+		["Lighting"] = {
+			["Ring"] = {
+				["RotateSpotlights"] = false,
+				["AudioReactive"] = false,
+				["Spotlights"] = "1, 1, 1",
+				["LED"] = "0.772549, 0.0509804, 0.0509804"
+			},
+			["Ramp"] = {
+				["RotateSpotlights"] = false,
+				["AudioReactive"] = false,
+				["Spotlights"] = "1, 1, 1",
+				["LED"] = "0.772549, 0.0509804, 0.0509804"
+			},
+			["Intro"] = {
+				["RotateSpotlights"] = false,
+				["AudioReactive"] = false,
+				["Spotlights"] = "1, 1, 1",
+				["LED"] = "0.772549, 0.0509804, 0.0509804"
+			},
+			["Stage"] = {
+				["RotateSpotlights"] = false,
+				["AudioReactive"] = false,
+				["Spotlights"] = "1, 1, 1",
+				["LED"] = "0.772549, 0.0509804, 0.0509804"
+			}
+		},
+		["ScreenEffect"] = {
+			["Ring"] = "None",
+			["Ramp"] = "None",
+			["Intro"] = "None",
+			["Stage"] = "None"
+		},
+		["EntranceProp"] = "None",
+		["Camera"] = {
+			["Ring"] = {
+				["Start"] = "None",
+				["End"] = "None"
+			},
+			["Ramp"] = {
+				["Start"] = "None",
+				["End"] = "None"
+			},
+			["Intro"] = {
+				["Start"] = "None",
+				["End"] = "None"
+			},
+			["Stage"] = {
+				["Start"] = "None",
+				["End"] = "None"
+			}
+		},
+		["Announcer"] = {
+			["Voice"] = "kidzrock4"
+		},
+		["Theme"] = {
+			["ID"] = "6681840651",
+			["StartTime"] = "0",
+			["Pitch"] = "1"
+		},
 		["Screens"] = {
+			["Ramp"] = {
+				[1] = {
+					["ID"] = "4460240603",
+					["Wait"] = "0.1"
+				}
+			},
+			["Screen2"] = {
+				[1] = {
+					["ID"] = "4460240952",
+					["Wait"] = ".1"
+				}
+			},
 			["TV"] = {
 				[1] = {
 					["ID"] = "16140857290",
@@ -2780,6 +2869,12 @@ local args = {
 						["Wait"] = "0.0833"
 					},
 				},
+			["TVTop"] = {
+				[1] = {
+					["ID"] = "4460240952",
+					["Wait"] = ".1"
+				}
+			}
 		},
 		["NamePlate"] = {
 			["Ring"] = "None",
